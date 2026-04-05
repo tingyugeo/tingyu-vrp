@@ -1,180 +1,98 @@
-🚀 TingYu VRP Solver
+# 🚀 TingYu VRP Solver
 
-"Dashboard" (dashboard.png)
-"Analysis" (analysis.png)
-"Solver" (solver.png)
+![Dashboard](dashboard.png)
 
-⚡ Instant VRP that actually works in real operations
+![Analysis](analysis.png)
+
+![Solver](solver.png)
+
+---
+
+⚡ **Instant VRP that actually works in real operations**  
 No retries. No guessing. Just executable routes.
 
-👉 Live Demo: https://tingyugeo.com
-🎁 Start with 2000 free credits
+👉 **Live Demo:** https://tingyugeo.com  
+🎁 **2000 free credits**
 
 ---
 
-🎯 What is TingYu?
+# 🎯 What is TingYu?
 
-TingYu is a next-generation Vehicle Routing Problem (VRP) solver designed for real-world logistics.
-
-Traditional solvers:
-
-- ❌ Slow
-- ❌ Random
-- ❌ Often produce non-executable routes
-
-TingYu:
-
-- ✅ Deterministic
-- ✅ Real-time (milliseconds)
-- ✅ Always executable under real constraints
+TingYu is a next-generation **Vehicle Routing Problem (VRP) solver** built for real logistics operations.
 
 ---
 
-⚡ Key Features
+# ⚡ Key Features
 
-🧠 Feasibility First (Game Changer)
-
-Before optimizing routes, TingYu checks:
-
-- Capacity constraints
-- Time feasibility
-- Delivery density
-- Resource allocation
-
-👉 No more “optimal but impossible” routes
+### 🧠 Feasibility First
+- Check if routes are actually executable  
+- Avoid impossible dispatch plans  
 
 ---
 
-🚚 Automatic Vehicle Detection
-
-- No manual tuning
-- System determines required fleet size
-- Balances load automatically
+### 🚚 Automatic Vehicle Detection
+- No manual tuning  
+- System decides optimal fleet size  
 
 ---
 
-⚡ O(N) Real-Time Performance
-
-- 100 nodes → ~0.018s
-- Scales to large datasets
-- No exponential explosion
+### ⚡ O(N) Real-Time
+- 100 nodes → ~0.018s  
+- No exponential slowdown  
 
 ---
 
-🎯 Deterministic Output
-
-- Same input → same result
-- No randomness
-- No retries
+### 🎯 Deterministic
+- Same input → same output  
+- No randomness  
 
 ---
 
-🔄 Two-Stage System
+# 🔄 Two-Stage System
 
-Stage 1 — Analysis
+### Stage 1 — Analysis
+- Feasibility check  
+- Zone partition  
+- Resource allocation  
 
-- Feasibility check
-- Zone partitioning
-- Vehicle allocation
-
-Stage 2 — Solver
-
-- Route sequence optimization
-- Distance reduction (10–30%)
-- Efficiency boost
-
-👉 First make it work → Then make it better
+### Stage 2 — Solver
+- Route optimization  
+- 10–30% distance reduction  
 
 ---
 
-📊 Example Performance
+# 📊 Example
 
-Scenario| Result
-100 nodes| 0.018s
-Distance reduction| 10–30%
-Load ratio| 90%+
-Execution reliability| 100% deterministic
+- 100 nodes → 0.018s  
+- 90%+ load balance  
+- Fully executable routes  
 
 ---
 
-💰 Why It Matters
+# 💰 Why It Matters
 
-Real business impact:
+- More deliveries  
+- Less fuel cost  
+- Better efficiency  
 
-- 🚚 More deliveries per day
-- ⛽ Lower fuel cost
-- 👷 Less driver overtime
-- 📈 Higher operational efficiency
-
-👉 The system pays for itself
+👉 **System pays for itself**
 
 ---
 
-🧪 Try It Now
+# 🧪 Try it
 
-👉 https://tingyugeo.com
+👉 https://tingyugeo.com  
 
-- Upload CSV
-- Get instant feasibility
-- Optimize routes
-- No setup required
-
-🎁 2000 free credits included
+Upload CSV → Get result instantly
 
 ---
 
-📦 Input Format
+# 🧠 Philosophy
 
-Basic CSV:
-
-id,lat,lon
-1,40.7128,-74.0060
-2,40.7135,-74.0050
-3,40.7142,-74.0042
-
-Optional fields supported:
-
-- demand
-- service_time
-- time windows
+From "Can Calculate" → **"Can Execute"**
 
 ---
 
-🔌 API Integration
+# ⭐ If useful
 
-- REST API ready
-- Easy integration with:
-  - Delivery systems
-  - Driver apps
-  - Navigation tools
-
----
-
-🧠 Philosophy
-
-«From "Can Calculate" → "Can Execute"»
-
----
-
-🏷️ Keywords
-
-vrp, vehicle-routing, logistics, route-optimization, delivery, fleet, optimization, api
-
----
-
-⚠️ Disclaimer
-
-Core algorithm is proprietary.
-This repository is for demonstration and integration purposes.
-
----
-
-📬 Contact
-
-📧 tingyugeo@gmail.com
-
----
-
-⭐ If you find this useful
-
-Give it a star ⭐ — it helps more people discover it.
+Give a star ⭐
